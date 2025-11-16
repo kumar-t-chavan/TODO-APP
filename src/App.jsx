@@ -59,7 +59,7 @@ del.style.display = "block"
 <div className='button'>
   
           <div className='preview'>
-           <h1>{preview}</h1>
+           <h5>{preview}</h5>
           
           </div>
         <div>

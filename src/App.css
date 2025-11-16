@@ -56,8 +56,9 @@ cursor: pointer;
  
 }
 
-h1{
+h5{
   text-align: center;
+  padding: 10px;
 }
 .btn12{
   padding: 10px;
