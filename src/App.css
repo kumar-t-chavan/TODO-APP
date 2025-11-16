@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.maintodo{
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.button{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+ 
+  height: 20vh;
+  padding: 20px;
+}
+.todoapp{
+  height: 40vh;
+
+  width: 30vw;
+  border: 5px solid black;
+  display: grid;
+  place-items: center;
+}
+input{
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+ border-radius: 10px;
+}
+.inputsection{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  
+}
+
+button{
+padding-left: 20px;
+padding-right: 20px;
+background-color: brown;
+border-radius: 10px;
+cursor: pointer;
+}
+
+
+.preview{
+
+  border-radius: 10px;
+ margin-right: 20px;
+ 
+  width: 16vw;
+ 
+}
+
+h1{
+  text-align: center;
+}
+.btn12{
+  padding: 10px;
+  display: none;
+}
+
+@media (min-width:300px) and (max-width:780px) {
+  .todoapp{
+    width: 90vw;
+  }
+  .preview{
+    width: 52vw;
+  }
+  input{
+    padding: 10px;
+    text-align: center;
+  }
+}
